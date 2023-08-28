@@ -32,6 +32,7 @@ export function GPlaceInput({
             onChange={(e) => handlePlaceValue(e.target.value)}
             value={value}
             type="text"
+            autoComplete="off"
           />
         </FormControl>
         {placeListOpen && (
